@@ -1,0 +1,15 @@
+<div class="container">
+  <h2>Grade System:</h2>
+  <div class="info-card-wrapper col-12 no-gutters" style="margin-bottom:0;">
+      <div class="info-card-ctnr">
+        <app-card-list [item]="item" [index]="i" *ngFor="let item of infoCards; let i= index;"> 
+          <img src="https://cdn.shortpixel.ai/client/q_glossy,ret_img,w_512/https://9huts.com/wp-content/uploads/2019/12/man_19-512.png"
+          >
+          <h3>Class {{item.class}}</h3>
+          <p class="name">{{item.name}}</p>
+          <p class="value">{{item.value}}</p>
+        </app-card-list>
+      </div>
+  </div>
+</div>
+

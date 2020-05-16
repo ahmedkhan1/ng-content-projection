@@ -1,0 +1,39 @@
+.container {
+    padding: 40px 10px;
+    }
+    
+    .info-card-wrapper{
+      margin: 10px 0px;
+    }
+    
+    .name{
+      margin: 10px 0px;
+      text-align:center;
+      color: #000;
+    }
+    
+    ::ng-deep .info-card-wrapper .info-card-ctnr {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    ::ng-deep .info-card-wrapper .info-card-ctnr .info-card .name {
+        color: #000;
+        font-weight: 700;
+        /* text-transform: lowercase; */
+    }
+    ::ng-deep .info-card-wrapper .info-card-ctnr .info-card .value {
+        font-size: 40px !important;
+        font-weight: 700;
+        text-align:center;
+    }
+    
+    ::ng-deep .info-card-wrapper .info-card-ctnr .info-card {
+        display: flex;
+        flex-direction: column;
+        box-sizing: border-box;
+        padding: 35px;
+        margin: 10px 10px !important;
+        width: 150px;
+        margin-right: 20px;
+    }

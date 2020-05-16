@@ -1,0 +1,12 @@
+
+<div class="info-card box" 
+[ngClass]="{'status-success': index === 1, 'status-warning': index === 2,'status-failure': index === 3 }">
+  <div class="header">
+    <ng-content select="img"></ng-content>
+
+  </div>
+  <div class="body">
+    <ng-content select="h3"></ng-content>
+    <ng-content select="p"></ng-content>
+  </div>
+</div>
